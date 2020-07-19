@@ -1,0 +1,14 @@
+1.Blockchain is a technology which is used to secure our data.
+Here no of blocks are created and join together with a signature.
+It is a combination of distributed database and cryptography.
+2. Blockchain is used to solve authenticity, security and presence of 3rd party problems.
+3.Features of the blockchain:
+a) verifiable
+b) unchangeable
+c) Tamper-proof
+d) immutable
+4.A single block contain data like 1)Block number 2.)Transaction record 3)Previous block signature
+5.The verifiability of Blockchain is attained by previous block signature.
+Each signature can be obtained with the help of cryptography.If a block created ,a signature also cretes along with it.
+When the data changes in the block automatically the signature also changes.
+So when a block signature doesn't matches with next block(present as prev signature) then it is said that data is changed.
