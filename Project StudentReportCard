@@ -1,0 +1,37 @@
+test Deployment of the smart contract can be found     0x37c3CC1Cec97992f4755FA0817B5c0d3Dc08c1dB
+
+      
+  				
+https://ropsten.etherscan.io/tx/0x5115f86b054cbed55170aa1832b6b95ba3cc21ebff72e2a69bc23f6408d48d5f
+
+<SOLIDITY CODE>
+pragma solidity ^0.4.17 < 0.6.12;
+
+contract StudentReport{
+    
+    string public Studentname;
+    string public Reg;
+    uint public Batch;
+    string public Python;
+    string public Java;
+    string public DataBase;
+    string public Status;
+    
+        
+function StudentReport(string newStudentname,string newReg,uint newBatch,string newPython,string newJava,string newDataBase,string newStatus) public {
+        Studentname = newStudentname;
+        Reg = newReg;
+        Batch = newBatch;
+        Python = newPython;
+        Java = newJava;
+        DataBase = newDataBase;
+        Status = newStatus;
+        
+    }
+    
+    function getnewLandRecord() public view returns(string,string,uint,string,string,string,string){
+        return( Studentname,Reg,Batch,Python,Java,DataBase,Status);
+    }
+    }
+
+
